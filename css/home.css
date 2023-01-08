@@ -1,9 +1,11 @@
 .home{
     width: 100%;
     height: 100vh;
-background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
 
 }
+
 .home::before{
     
     content: " ";
@@ -14,4 +16,5 @@ background-color: cornflowerblue;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
+    
 }

@@ -1,6 +1,56 @@
 .history{
     width: 100%;
     height: 100vh;
-background-color: rgb(100, 237, 118);
+    display: flex;
+    justify-content: center;
+}
+.history::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/backgroundHistory.png);
+    background-color: rgb(221, 220, 211);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+  
+}
 
+
+.line{
+    border-left: 1px  solid rgb(0, 0, 0);
+    height: 100%;
+    margin: 0 auto;
+    z-index: -5;
+    position: absolute;
+    left: 1vw;
+     
+}
+
+.line2{
+    border-left:  1px solid rgb(0, 0, 0);
+    height: 100%;
+    margin: 0 auto;
+    z-index: -5;
+    position: absolute;
+    left: 25vw;
+   
+}
+.line3{
+    border-left:  1px  solid rgb(0, 0, 0);
+    height: 100%;
+    margin: 0 auto;
+    z-index: -5;
+    position: absolute;
+    right: 50vw;
+    
+}
+.line4{
+    border-left:  1px  solid rgb(0, 0, 0);
+    height: 100%;
+    margin: 0 auto;
+    z-index: -5;
+    position: absolute;
+    right: 1vw;
 }

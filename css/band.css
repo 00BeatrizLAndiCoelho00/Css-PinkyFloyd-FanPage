@@ -1,6 +1,37 @@
 .band{
     width: 100%;
-    height: 200vh;
-background-color: rgb(237, 100, 100);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 
+}
+.band::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/backgroundBand.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+  
+}
+/*------------------------------------------------------------------------------------------*/
+.band2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+.band2::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/backgroundBand.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+  
 }

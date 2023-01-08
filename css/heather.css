@@ -1,14 +1,11 @@
 .menu{
-    justify-content: flex-end;
+    
     display: flex;
-    align-content: flex-end;
-    color: var(--dark);
-    margin-top: 1vh;
-    right: 0.5vw;
+    color: var(--light);
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     gap: 4vw;
-    font-size: 1.20rem;
-    padding-right: 3vh;
+    font-size: 1.2rem;
+   justify-content: end;
   
 }
