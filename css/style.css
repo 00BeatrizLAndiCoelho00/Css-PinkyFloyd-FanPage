@@ -1,0 +1,57 @@
+:root{
+
+    font-size: 15px;
+   --light: rgb(255, 251, 247);
+   --medium:rgb(243, 198, 157);
+    --dark:rgb(19, 18, 18);
+    --darkLigth:rgb(71, 62, 30);
+
+}
+
+html{
+    scroll-behavior: smooth;
+ }
+
+
+
+*::after,*,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+ol, ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    display: grid;
+    grid-template-areas: "a";
+    margin: 0;
+    padding: 0px;
+    background-color: crimson;
+
+}
+header{
+    background-color: aqua;
+    grid-area: a;
+}
+main{
+ 
+    grid-area: a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+
+}
+
+footer{
+    background-color: antiquewhite;
+}
