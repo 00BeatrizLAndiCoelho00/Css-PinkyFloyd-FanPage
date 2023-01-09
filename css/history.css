@@ -1,8 +1,7 @@
 .history{
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
+   
 }
 .history::before{
     content: " ";
@@ -14,7 +13,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -10;
-  
+ 
 }
 
 
