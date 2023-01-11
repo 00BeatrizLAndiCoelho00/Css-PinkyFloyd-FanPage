@@ -62,31 +62,33 @@
 }
 
 .sociaMedia{
-    margin-top: 8vh;
+
+    margin-left: 5vw;
+    margin-top: 40vh;
+    color: var(--medium);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    background-image: url(img/ContactBlackPaper.jpg);
+    width: 12vw;
+    height: 42vh;
+    display: grid;
+     align-items: center;
+     text-align: center;
+   
 }
+.sociaMedia li :hover{
+    transition: color .4s;
+    color: var(--redish);
 
-.twitter{
-    margin-top: 2vh;
-    transform: rotate(20deg);
 }
-
-.youtube{
-
-    transform: rotate(-5deg);
-    margin-left: 3vw;
-    margin-top: -5vh;
-}
-
-.spotfy{
-    transform: rotate(2deg);
-    margin-left: 1vw;
-    margin-top: 5vh;
+.subtittSocialMedia{
+    color: var(--redish);
 }
 
 .menuBottom{
 
     margin-right: 5vw;
-    margin-top: 40vh;
+    margin-top: 60vh;
     color: var(--dark);
     font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
