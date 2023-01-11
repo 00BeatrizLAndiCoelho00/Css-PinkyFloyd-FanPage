@@ -1,10 +1,10 @@
 :root{
 
     font-size: 15px;
-   --light: rgb(255, 251, 247);
-   --medium:rgb(243, 198, 157);
+   --light: rgb(252, 245, 228);
+   --medium:rgb(247, 226, 207);
     --dark:rgb(19, 18, 18);
-    --darkLigth:rgb(71, 62, 30);
+    --redish:rgb(192, 25, 25);
 
 }
 
@@ -35,7 +35,7 @@ body{
     margin: 0;
     padding: 0px;
 
-    
+    background-color: rgb(250, 237, 221);
    
 
 }

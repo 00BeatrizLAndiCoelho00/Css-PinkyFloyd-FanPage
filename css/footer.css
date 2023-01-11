@@ -1,0 +1,13 @@
+
+footer{
+    color: black;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    
+   
+}

@@ -1,7 +1,6 @@
 .contact{
     width: 100%;
     height: 100vh;
- 
 
 }
 
@@ -10,11 +9,101 @@
     content: " ";
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 107%;
     background-image: url(img/backgroundContact.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.5;
-    z-index: -10;
-  
+    z-index: -20;
+    opacity: 0.4;
+   
+}
+.vinyl{
+    top: -120%;
+    position: relative;
+    animation: spin 6s infinite linear;
+    width: fit-content;
+    z-index: -11;
+
+    animation-name: spin;
+    animation-duration: 8000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+
+
+    margin: auto;
+    display: block;
+   
+}
+
+.barCode_watermark{
+    display: flex;
+    justify-content: end;
+
+    color: var(--medium);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+   
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.waterMark{
+    display: grid;
+    align-self: flex-end;
+}
+
+.socialMedia_navBar{
+    display: flex;
+    justify-content: space-between;
+   
+   
+
+}
+
+.sociaMedia{
+    margin-top: 8vh;
+}
+
+.twitter{
+    margin-top: 2vh;
+    transform: rotate(20deg);
+}
+
+.youtube{
+
+    transform: rotate(-5deg);
+    margin-left: 3vw;
+    margin-top: -5vh;
+}
+
+.spotfy{
+    transform: rotate(2deg);
+    margin-left: 1vw;
+    margin-top: 5vh;
+}
+
+.menuBottom{
+
+    margin-right: 5vw;
+    margin-top: 40vh;
+    color: var(--dark);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.menuBottom li:hover{
+    transition: color .4s;
+color: var(--redish);
+}
+
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
