@@ -1,7 +1,9 @@
 .discography{
     width: 100%;
     height: 100vh;
-    
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
 
 }
 
@@ -15,4 +17,78 @@
     background-size: cover;
     z-index: -10;
   
+}
+
+.discographyTittle{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    letter-spacing: 3;
+    font-weight: 800;
+    font-size: 4.5rem;
+    color: var(--medium);
+    margin-left: 3vw;
+    align-self: center;
+    border-right: 4px solid var(--light);
+}
+.albuns{
+    padding-left: 12vw;
+    color: var(--light);
+    font-weight: 600;
+    font-size: 2rem;
+
+
+}
+.albumTittle{
+
+  padding-top: 2vh;
+ margin-left: 15vw;
+}
+
+.albumLyrics{
+    color: var(--light);
+    font-size: 1rem;
+    font-weight: 200;
+    
+}
+
+.stamp{
+    filter: grayscale(51%);
+
+}
+
+
+.DiscograPhyPoster{
+    margin-top: 6vh;
+    display: grid;
+    grid-template-areas:
+                 "a b c d"
+                 "e f g h "
+                 "i i j k";
+     grid-template-rows: 10vw 10vw 10vw 14vw;
+     grid-template-columns: 9vw 9vw 9vw 12vw;
+      gap: 55px;
+  
+}
+
+.discographyDetails{
+color: var(--light);
+font-size: 3rem;
+font-weight: 200;
+}
+
+.lyrics{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.spinTextDiscography{
+
+    margin-top: 40vh;
+    
+}
+
+.bookmark{
+    margin-top: 9vh;
+   margin-left: 12vw;
+    
 }

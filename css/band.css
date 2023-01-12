@@ -34,3 +34,124 @@
     z-index: -10;
   
 }
+/*------------------------------------------------------------------------------------------*/
+.spinText{
+    width:  8.5vw;
+    height: 8.5vw;
+    border-radius: 50%;
+    position: relative;
+    color: var(--medium);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+
+    animation-name: spin;
+    animation-duration: 8000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation: spin 6s infinite linear;
+    opacity: 0.8;
+}
+
+.spinText .number{
+
+    --rotation:0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform: rotate(var(--rotation));
+ 
+   
+}
+
+.spinText .number1{--rotation :  30deg}
+.spinText .number2{--rotation : 60deg}
+.spinText .number3{--rotation : 90deg}
+.spinText .number4{--rotation : 120deg}
+.spinText .number5{--rotation : 150deg}
+.spinText .number6{--rotation : 180deg}
+.spinText .number7{--rotation : 210deg}
+.spinText .number8{--rotation : 240deg}
+.spinText .number9{--rotation : 270deg}
+.spinText .number10{--rotation : 300deg}
+.spinText .number11{--rotation : 330deg}
+
+.spinText::after{
+    content: '';
+    position: absolute;
+    background-color: var(--detalhes);
+    z-index: 11;
+    width: 1vw;
+    height: 1vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.spinTextSmol{
+    left: 5vw;
+    width:  5.5vw;
+    height: 5.5vw;
+    border-radius: 50%;
+    position: relative;
+    color: var(--medium);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+
+    animation-name: spin;
+    animation-duration: 8000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation: spin 6s infinite linear;
+    opacity: 0.8;
+
+}
+
+
+.spinTextSmol .number{
+
+    --rotation:0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform: rotate(var(--rotation));
+ 
+   
+}
+
+
+.spinTextSmol .number1{--rotation :  30deg}
+.spinTextSmol .number2{--rotation : 60deg}
+.spinTextSmol .number3{--rotation : 90deg}
+.spinTextSmol .number4{--rotation : 120deg}
+.spinTextSmol .number5{--rotation : 150deg}
+.spinTextSmol .number6{--rotation : 180deg}
+.spinTextSmol .number7{--rotation : 210deg}
+.spinTextSmol .number8{--rotation : 240deg}
+.spinTextSmol .number9{--rotation : 270deg}
+.spinTextSmol .number10{--rotation : 300deg}
+.spinTextSmol .number11{--rotation : 330deg}
+
+.spinTextSmol::after{
+    content: '';
+    position: absolute;
+    background-color: var(--detalhes);
+    z-index: 11;
+    width: 1vw;
+    height: 1vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
