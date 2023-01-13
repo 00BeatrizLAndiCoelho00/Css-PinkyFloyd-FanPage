@@ -53,9 +53,13 @@
     position: absolute;
     right: 1vw;
 }
-
+.contentHistory{
+    display: flex;
+}
 .left{
- 
+
+ width: 50%;
+ height: 100vh;
 }
 .allBandMembersImagen{
     margin-top: 1vh;
@@ -98,4 +102,41 @@
     margin-top: 8vh;
     margin-bottom: 8vh;
     margin-left: 2.5vw;
+}
+
+.bookmarkHistory{
+    color: black;
+    font-size: 2rem;
+}
+
+.bookmarkHistory{
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    font-weight: 200;  
+    padding-left: 43vw;
+}
+
+.LogoBand{
+  margin-left: 6vw;
+}
+
+.textRigth{
+    margin-top: 1.5vh;
+    width: 46vw;
+    margin-left: 2vw;
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.imgTheshowMustGoOn{
+    margin-top: 3vh;
+    margin-left: 5vw;
+}
+
+.textAboutTheShowMustGoOn{
+
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;  
+    margin-left: 29vw;
 }
