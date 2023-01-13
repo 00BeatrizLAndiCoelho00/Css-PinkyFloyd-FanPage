@@ -58,7 +58,7 @@
 
 
 .DiscograPhyPoster{
-    margin-top: 6vh;
+    margin-top: 5.5vh;
     display: grid;
     grid-template-areas:
                  "a b c d"
@@ -66,9 +66,46 @@
                  "i i j k";
      grid-template-rows: 10vw 10vw 10vw 14vw;
      grid-template-columns: 9vw 9vw 9vw 12vw;
-      gap: 55px;
+      gap: 6.5vh;
   
 }
+
+
+.Poster{
+    width:9.7vw ;
+    height:12.5vw ;
+    }
+    
+    .container{
+        position: absolute;
+      
+    }
+    
+    .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+    }
+    
+    .textOverlay{
+        position: absolute;
+        transform: translate(-50, -50);
+        color: var(light);
+        margin-top: 30%;
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .container:hover .overlay{
+        opacity: 0.8;
+    }
 
 .discographyDetails{
 color: var(--light);

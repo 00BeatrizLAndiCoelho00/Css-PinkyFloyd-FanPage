@@ -155,3 +155,39 @@
         transform:rotate(360deg);
     }
 }
+
+.Poster{
+width:9.7vw ;
+height:12.5vw ;
+}
+
+.container{
+    position: absolute;
+  
+}
+
+.overlay{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+opacity: 0;
+transition: opacity 0.4s ease-in-out;
+background: black;
+cursor: pointer;
+}
+
+.textOverlay{
+    position: absolute;
+    transform: translate(-50, -50);
+    color: var(light);
+    margin-top: 30%;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.container:hover .overlay{
+    opacity: 0.8;
+}
