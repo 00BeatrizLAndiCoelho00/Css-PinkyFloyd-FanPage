@@ -53,3 +53,49 @@
     position: absolute;
     right: 1vw;
 }
+
+.left{
+ 
+}
+.allBandMembersImagen{
+    margin-top: 1vh;
+ margin-left: 2vw;
+}
+
+.TextsHistory_smolImageHistory{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    width: 45vw;
+    margin-left: 2vw;
+    margin-top: 1vh;
+    height: 43vh;
+}
+
+.txtHistoryLeft{
+    margin-top: 1.5vh;
+    align-items: center;
+    color: black;
+    width: 23vw;
+    height: 50%;
+}
+
+.imgHistory2{
+    margin-top: 3vh;
+  margin-left: 2vw;
+}
+
+.txtHistoryRigth{
+    margin-top: 1.5vh;
+    align-items: center;
+    width: 23vw;
+    height: 50%;
+    margin-left: 2vw;
+}
+
+.redtext{
+    color: var(--redish);
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    margin-left: 2.5vw;
+}
