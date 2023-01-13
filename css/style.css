@@ -34,7 +34,7 @@ body{
    
     margin: 0;
     padding: 0px;
-
+    overflow-x: hidden;
     background-color: rgb(250, 237, 221);
    
 

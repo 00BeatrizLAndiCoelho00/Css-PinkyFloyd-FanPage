@@ -16,12 +16,13 @@
 .logo{
 
 
+
     writing-mode: vertical-rl;
 
     letter-spacing: 2;
     font-weight: 800;
     font-family: 'Inter', sans-serif;
-    font-size: 4.7rem;
+    font-size: 4.5rem;
     color: var(--light);
 
     border-left: 4px solid var(--light);
@@ -37,3 +38,40 @@
     font-weight: 900;
 
 }
+  
+ 
+
+
+
+
+.container {
+    margin-top: 3.2vh;
+    display: flex;
+    white-space: nowrap;
+  background-color: var(--medium);
+  }
+  
+  .list {
+    display: flex;
+    font-size: 1.5rem;
+    -webkit-animation: loop 20s infinite linear;
+    animation: loop 115s infinite linear;
+  }
+  
+  .item {
+    color: rgb(51, 51, 51);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    
+  }
+  
+  @keyframes loop {
+    100% {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  }
+  
+
+
+    
