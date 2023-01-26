@@ -18,5 +18,5 @@
 <p>
     A pure css fan page in honor of the band Pink Floyd developed for the LIMA subject of the IT course at SENAI aiming practice with css and html
 </p>
-[![Watch the video](https://www.loom.com/share/078f69883fcc49099acf7e8f89756169)](https://youtu.be/vt5fpE0bzSY)
+
 
