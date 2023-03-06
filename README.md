@@ -21,3 +21,14 @@
 
 
 ![pinkyHome](https://user-images.githubusercontent.com/115050725/223131004-ee2cccbb-19a3-4e3e-80ca-856470c8e1e9.png)
+
+![pinkyHistory](https://user-images.githubusercontent.com/115050725/223131908-350b2ef2-49f4-4ca9-b27d-cb872d25dbbe.png)
+
+![PinkyMebers1](https://user-images.githubusercontent.com/115050725/223132212-60f10041-1f75-4e58-aa4b-66930fe0ce5f.png)
+
+![pinkyMembers2](https://user-images.githubusercontent.com/115050725/223132311-9142190a-675f-43b6-a684-8f8b0a100bd7.png)
+
+![pinkyDiscography](https://user-images.githubusercontent.com/115050725/223132406-e52bd444-f2dc-4921-8ac6-9d87549e26b1.png)
+
+![pinkyContacts](https://user-images.githubusercontent.com/115050725/223132566-1afdd494-1e61-4fc3-8cfb-8490e4b2108a.png)
+
